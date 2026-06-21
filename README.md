@@ -1,2 +1,33 @@
-# cybersecurity-homelab
-Turning an old Lenovo laptop into a cybersecurity home lab with Ubuntu Server, Pi-hole, monitoring and self hosted services.
+# Cybersecurity Home Lab
+
+I had an old Lenovo laptop that was no longer being used, so I decided to turn it into a home lab.
+
+The goal of this project is to learn Linux, networking and cybersecurity by building and managing my own server.
+
+The laptop runs Ubuntu Server and will be used for different projects including Pi-hole, Docker, Wazuh and other self hosted services.
+
+## Hardware
+
+Laptop: Lenovo laptop
+
+CPU: Intel Core i3
+
+RAM: 10-12GB DDR4
+
+Storage: 512GB HDD
+
+## Planned Setup
+
+* Ubuntu Server
+* Pi-hole
+* UFW Firewall
+* Docker
+* Wazuh
+* SSH Hardening
+* Network Monitoring
+* Portfolio Website
+
+## Current Status
+
+Project started. Hardware documented and installation preparation in progress.
+

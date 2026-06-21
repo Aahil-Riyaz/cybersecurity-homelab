@@ -10,7 +10,7 @@ The laptop runs Ubuntu Server and will be used for different projects including 
 
 Laptop: Lenovo laptop
 
-CPU: Intel Core i3
+CPU: Intel Core i3-6006U 2.00GHz
 
 RAM: 12GB DDR4
 

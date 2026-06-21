@@ -13,3 +13,4 @@ Next step is creating a bootable USB and installing Ubuntu Server.
 Created a bootable USB drive using Rufus and the Ubuntu Server ISO.
 
 This USB will be used to install Ubuntu Server on the Lenovo laptop.
+Next step is booting the laptop from the USB and installing Ubuntu Server.

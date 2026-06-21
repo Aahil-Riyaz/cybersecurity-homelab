@@ -7,3 +7,6 @@ I had an old Lenovo laptop that was not being used, so I decided to turn it into
 Today I created the GitHub repository and planned the project.
 
 The goal is to learn Linux, networking and cybersecurity while building something useful.
+
+
+Downloaded Ubuntu Server and prepared for installation.

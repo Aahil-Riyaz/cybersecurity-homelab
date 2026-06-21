@@ -12,7 +12,7 @@ Laptop: Lenovo laptop
 
 CPU: Intel Core i3
 
-RAM: 10-12GB DDR4
+RAM: 12GB DDR4
 
 Storage: 512GB HDD
 

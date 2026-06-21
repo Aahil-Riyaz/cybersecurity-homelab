@@ -4,9 +4,8 @@
 
 I had an old Lenovo laptop that was not being used, so I decided to turn it into a cybersecurity home lab.
 
-Today I created the GitHub repository and planned the project.
+Today I created the GitHub repository and documented the hardware.
 
-The goal is to learn Linux, networking and cybersecurity while building something useful.
+I also downloaded Ubuntu Server and prepared to install it on the laptop.
 
-
-Downloaded Ubuntu Server and prepared for installation.
+Next step is creating a bootable USB and installing Ubuntu Server.

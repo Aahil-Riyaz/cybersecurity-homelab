@@ -9,3 +9,7 @@ Today I created the GitHub repository and documented the hardware.
 I also downloaded Ubuntu Server and prepared to install it on the laptop.
 
 Next step is creating a bootable USB and installing Ubuntu Server.
+
+Created a bootable USB drive using Rufus and the Ubuntu Server ISO.
+
+This USB will be used to install Ubuntu Server on the Lenovo laptop.

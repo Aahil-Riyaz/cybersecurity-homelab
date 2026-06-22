@@ -1,8 +1,8 @@
 # Cybersecurity Home Lab
 
-I found an old Lenovo laptop that was no longer being used, so I decided to turn it into a cybersecurity home lab.
+I had an old Lenovo laptop that was no longer being used, so I decided to turn it into a cybersecurity home lab.
 
-The purpose of this project is to learn Linux, networking, Docker, and cybersecurity by building and managing my own server. I am documenting everything I do so I can track my progress and show what I have learned throughout the project.
+The purpose of this project is to learn Linux, networking, Docker, and cybersecurity by building and managing my own server. I am documenting everything I do on GitHub so I can track my progress and show what I have learned throughout the project.
 
 ---
 
@@ -65,10 +65,12 @@ The purpose of this project is to learn Linux, networking, Docker, and cybersecu
 * UFW firewall configured
 * Basic SSH hardening completed
 * Cockpit installed and accessible
+* Tailscale installed and configured
+* Remote access tested through Tailscale
+* Server accessible from other devices
 
 ### In Progress
 
-* Tailscale setup
 * Network monitoring
 * Wazuh deployment
 
@@ -94,6 +96,8 @@ So far I have learned how to:
 * Configure DNS filtering and ad blocking
 * Configure UFW firewall rules
 * Perform basic SSH hardening
+* Use Cockpit for server management
+* Configure Tailscale for secure remote access
 * Document projects using GitHub
 
 ---
@@ -131,6 +135,12 @@ So far I have learned how to:
 * Verified access to system monitoring tools
 * Reviewed running services and system health
 * Continued documenting the project on GitHub
+* Installed Tailscale on the server
+* Connected the server to my private Tailnet
+* Installed Tailscale on my Windows laptop
+* Verified remote connectivity between devices
+* Accessed Cockpit using the Tailscale IP address
+* Confirmed the server can be managed securely from anywhere
 
 ---
 

@@ -27,7 +27,36 @@ Storage: 512GB HDD
 * Network Monitoring
 * Portfolio Website
 
+## Skills Practiced
+
+- Linux Administration
+- Ubuntu Server
+- Docker
+- Networking
+- SSH
+- Git & GitHub
+- Troubleshooting
+- System Deployment
+
 ## Current Status
 
-Project started. Hardware documented and installation preparation in progress.
+✅ Ubuntu Server 26.04 Installed
+
+✅ Wi-Fi Configured
+
+✅ System Updated
+
+✅ OpenSSH Installed
+
+✅ Docker Installed
+
+✅ Docker Tested Successfully
+
+⏳ Pi-hole Deployment In Progress
+
+⏳ UFW Firewall Configuration
+
+⏳ SSH Hardening
+
+⏳ Wazuh Deployment
 

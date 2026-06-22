@@ -138,6 +138,52 @@ Performed basic SSH hardening by reviewing the SSH configuration and verifying t
 Installed Cockpit, a web-based Linux server management dashboard, and configured firewall access for remote management.
 
 Successfully accessed the Cockpit dashboard through a web browser and verified access to system monitoring, networking, storage, logs, and services.
+### Tailscale Setup
+
+Installed Tailscale on the Ubuntu server to enable secure remote access without exposing services directly to the internet.
+
+Authenticated the server to my Tailscale network and verified that the device appeared successfully in the Tailscale admin console.
+
+Installed Tailscale on my Windows laptop and connected it to the same Tailnet.
+
+Verified connectivity between both devices and confirmed that the server could be accessed remotely using its Tailscale IP address.
+
+Successfully accessed the Cockpit web interface through the Tailscale network, demonstrating that the server can now be managed securely from anywhere with an internet connection.
+
+### Progress
+
+* Tailscale installed on Ubuntu Server
+* Server connected to Tailnet
+* Tailscale installed on Windows laptop
+* Remote connectivity verified
+* Cockpit accessed through Tailscale IP
+* Secure remote management confirmed
+
+### Lessons Learned
+
+* Basics of Tailscale networking
+* Secure remote access without port forwarding
+* Device-to-device communication using private Tailscale IPs
+* Remote administration of Linux servers
+
+### Current Environment
+
+* Ubuntu Server 26.04
+* OpenSSH
+* Docker
+* Pi-hole
+* UFW Firewall
+* Cockpit
+* Tailscale
+
+### Next Steps
+
+* Deploy network monitoring tools
+* Install and configure Wazuh
+* Configure automatic backups
+* Host a portfolio website
+* Continue security hardening
+
 
 ### Progress
 

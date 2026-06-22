@@ -49,6 +49,20 @@ During setup I encountered a port conflict on port 53 caused by systemd-resolved
 
 The container is running correctly and passed its health checks.
 
+Successfully accessed the Pi-hole web dashboard and verified that the container was running correctly.
+
+The dashboard loaded successfully with the default blocklists, showing over 82,000 blocked domains available for filtering.
+
+This confirmed that Docker networking, container deployment, and web access were functioning correctly.
+
+### Additional Progress
+
+* Accessed the Pi-hole dashboard from a web browser
+* Verified successful Docker container deployment
+* Confirmed Pi-hole services were running correctly
+* Verified default blocklists were loaded
+* Completed initial Pi-hole setup
+
 Progress
 Pi-hole deployed with Docker
 Container health verified

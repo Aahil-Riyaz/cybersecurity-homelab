@@ -122,3 +122,43 @@ Finally, I performed basic SSH hardening and verified that the SSH service resta
 - Portfolio Website
 - Additional Self-Hosted Services
 - Advanced Security Monitoring
+
+---
+
+## Day 3
+
+Configured UFW Firewall and applied basic security rules.
+
+Allowed SSH access on port 22 and opened the required ports for Pi-hole DNS and web management.
+
+Enabled the firewall and verified that all required services remained accessible.
+
+Performed basic SSH hardening by reviewing the SSH configuration and verifying that the SSH service restarted successfully.
+
+Installed Cockpit, a web-based Linux server management dashboard, and configured firewall access for remote management.
+
+Successfully accessed the Cockpit dashboard through a web browser and verified access to system monitoring, networking, storage, logs, and services.
+
+### Progress
+
+* UFW Firewall installed and configured
+* SSH service verified after hardening
+* Cockpit installed
+* Cockpit web interface accessible
+* System monitoring dashboard operational
+
+### Lessons Learned
+
+* Linux firewall management using UFW
+* Managing services with systemctl
+* SSH service configuration
+* Web-based Linux administration with Cockpit
+* Monitoring system resources and services
+
+### Next Steps
+
+* Install Tailscale
+* Deploy network monitoring tools
+* Install Wazuh
+* Configure automatic backups
+* Deploy a portfolio website

@@ -1,62 +1,137 @@
 # Cybersecurity Home Lab
 
-I had an old Lenovo laptop that was no longer being used, so I decided to turn it into a home lab.
+I found an old Lenovo laptop that was no longer being used, so I decided to turn it into a cybersecurity home lab.
 
-The goal of this project is to learn Linux, networking and cybersecurity by building and managing my own server.
+The goal of this project is to gain hands-on experience with Linux administration, networking, Docker, self-hosted services, and cybersecurity tools while building a server from scratch.
 
-The laptop runs Ubuntu Server and will be used for different projects including Pi-hole, Docker, Wazuh and other self hosted services.
+This project is also being used to document my learning journey as a Cybersecurity student.
+
+---
 
 ## Hardware
 
-Laptop: Lenovo laptop
+Laptop: Lenovo Laptop
 
-CPU: Intel Core i3-6006U 2.00GHz
+CPU: Intel Core i3-6006U @ 2.00 GHz
 
 RAM: 12GB DDR4
 
 Storage: 512GB HDD
 
+Operating System: Ubuntu Server 26.04 LTS
+
+---
+
 ## Planned Setup
 
-* Ubuntu Server
-* Pi-hole
-* UFW Firewall
-* Docker
-* Wazuh
-* SSH Hardening
-* Network Monitoring
-* Portfolio Website
+- Ubuntu Server
+- Docker
+- Pi-hole
+- UFW Firewall
+- SSH Hardening
+- Cockpit
+- Tailscale
+- Network Monitoring
+- Wazuh
+- Portfolio Website
+
+---
 
 ## Skills Practiced
 
 - Linux Administration
-- Ubuntu Server
-- Docker
-- Networking
-- SSH
+- Ubuntu Server Installation
+- Docker Container Management
+- Network Configuration
+- DNS and Pi-hole Management
+- SSH Configuration
+- Firewall Configuration (UFW)
 - Git & GitHub
 - Troubleshooting
 - System Deployment
 
+---
+
 ## Current Status
 
-✅ Ubuntu Server 26.04 Installed
+### Completed
 
-✅ Wi-Fi Configured
+- Ubuntu Server 26.04 Installed
+- Wi-Fi Configured
+- System Updated
+- OpenSSH Installed
+- Docker Installed
+- Docker Tested Successfully
+- Pi-hole Deployed Using Docker
+- Pi-hole Dashboard Accessible
+- DNS Resolution Verified
+- UFW Firewall Configured
+- SSH Hardening Completed
 
-✅ System Updated
+### In Progress
 
-✅ OpenSSH Installed
+- Cockpit Installation
+- Tailscale Setup
+- Network Monitoring
+- Wazuh Deployment
 
-✅ Docker Installed
+### Planned
 
-✅ Docker Tested Successfully
+- Portfolio Website Hosting
+- Additional Security Hardening
+- Self-Hosted Services
 
-⏳ Pi-hole Deployment In Progress
+---
 
-⏳ UFW Firewall Configuration
+## What I Learned So Far
 
-⏳ SSH Hardening
+- Creating bootable USB drives with Rufus
+- Installing and configuring Ubuntu Server
+- Managing Linux services using systemctl
+- Installing and managing Docker containers
+- Troubleshooting Docker networking issues
+- Understanding DNS and ad blocking with Pi-hole
+- Configuring and managing UFW Firewall
+- Basic SSH security hardening
+- Using Git and GitHub for project documentation
 
-⏳ Wazuh Deployment
+---
 
+## Project Log
+
+### Day 1
+
+- Created the GitHub repository
+- Documented laptop hardware specifications
+- Planned the homelab architecture
+- Downloaded Ubuntu Server ISO
+- Created a bootable USB using Rufus
+- Prepared the laptop for installation
+
+### Day 2
+
+- Installed Ubuntu Server 26.04
+- Configured Wi-Fi networking
+- Enabled OpenSSH
+- Updated system packages
+- Installed Docker
+- Tested Docker using the hello-world container
+- Attempted native Pi-hole installation
+- Switched to Docker deployment after installation issues
+- Resolved Docker port conflicts
+- Successfully deployed Pi-hole
+- Verified DNS traffic through Pi-hole
+- Installed and configured UFW Firewall
+- Hardened SSH configuration
+- Documented progress on GitHub
+
+---
+
+## Future Goals
+
+- Deploy Wazuh for security monitoring
+- Set up network monitoring tools
+- Host a personal portfolio website
+- Learn containerized service management
+- Improve Linux administration skills
+- Build a complete cybersecurity homelab environment

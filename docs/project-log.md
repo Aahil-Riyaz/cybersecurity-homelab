@@ -41,6 +41,25 @@ Installed Docker and verified the installation using the hello-world container.
 Attempted a native Pi-hole installation, which became unresponsive during package installation. As a result, I decided to deploy Pi-hole using Docker instead.
 
 During deployment, Docker reported that port 53 was already in use by Ubuntu's systemd-resolved service. After troubleshooting the issue and freeing the port, I successfully launched the Pi-hole container.
+Successfully deployed Pi-hole using Docker.
+
+The initial Pi-hole installation method became unresponsive, so I switched to a Docker-based deployment.
+
+During setup I encountered a port conflict on port 53 caused by systemd-resolved. After troubleshooting the issue, I reconfigured the system and successfully launched the Pi-hole container.
+
+The container is running correctly and passed its health checks.
+
+Progress
+Pi-hole deployed with Docker
+Container health verified
+Docker networking troubleshooting completed
+
+Lessons Learned
+Docker container deployment
+Port conflict troubleshooting
+Linux networking services
+Basic container management
+
 
 ### Progress
 

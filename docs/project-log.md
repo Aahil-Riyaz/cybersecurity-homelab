@@ -8,12 +8,12 @@ The goal of this project is to gain hands-on experience with Linux administratio
 
 ### Progress
 
-* Created the GitHub repository for the project
-* Documented the laptop hardware specifications
-* Planned the homelab architecture and future services
-* Downloaded the Ubuntu Server 26.04 ISO
-* Created a bootable USB drive using Rufus
-* Prepared the laptop for Ubuntu Server installation
+- Created the GitHub repository for the project
+- Documented the laptop hardware specifications
+- Planned the homelab architecture and future services
+- Downloaded the Ubuntu Server 26.04 ISO
+- Created a bootable USB drive using Rufus
+- Prepared the laptop for Ubuntu Server installation
 
 ### Notes
 
@@ -21,12 +21,12 @@ The bootable USB was successfully created and verified. The next step is to boot
 
 ### Planned Next Steps
 
-* Install Ubuntu Server 26.04
-* Configure networking and SSH access
-* Update the system packages
-* Install Docker
-* Deploy Pi-hole
-* Configure firewall and security settings
+- Install Ubuntu Server 26.04
+- Configure networking and SSH access
+- Update the system packages
+- Install Docker
+- Deploy Pi-hole
+- Configure firewall and security settings
 
 ---
 
@@ -38,69 +38,87 @@ Configured Wi-Fi networking, enabled OpenSSH for remote access, and updated the 
 
 Installed Docker and verified the installation using the hello-world container.
 
-Attempted a native Pi-hole installation, which became unresponsive during package installation. As a result, I decided to deploy Pi-hole using Docker instead.
+Initially attempted a native Pi-hole installation, but the installation became unresponsive during package configuration. To improve reliability and simplify management, I decided to deploy Pi-hole using Docker instead.
 
-During deployment, Docker reported that port 53 was already in use by Ubuntu's systemd-resolved service. After troubleshooting the issue and freeing the port, I successfully launched the Pi-hole container.
-Successfully deployed Pi-hole using Docker.
+During deployment, Docker reported that port 53 was already in use by Ubuntu's systemd-resolved service. After troubleshooting the issue and reconfiguring the system, I successfully launched the Pi-hole container.
 
-The initial Pi-hole installation method became unresponsive, so I switched to a Docker-based deployment.
+The Pi-hole container started successfully, passed its health checks, and the web dashboard became accessible through a browser.
 
-During setup I encountered a port conflict on port 53 caused by systemd-resolved. After troubleshooting the issue, I reconfigured the system and successfully launched the Pi-hole container.
+I then verified DNS functionality by configuring a client device to use Pi-hole as its DNS server and confirmed that DNS queries were reaching the dashboard correctly.
 
-The container is running correctly and passed its health checks.
+To improve security, I configured UFW Firewall and applied a default deny-incoming policy while allowing only the required ports for SSH and Pi-hole.
 
-Successfully accessed the Pi-hole web dashboard and verified that the container was running correctly.
-
-The dashboard loaded successfully with the default blocklists, showing over 82,000 blocked domains available for filtering.
-
-This confirmed that Docker networking, container deployment, and web access were functioning correctly.
-
-### Additional Progress
-
-* Accessed the Pi-hole dashboard from a web browser
-* Verified successful Docker container deployment
-* Confirmed Pi-hole services were running correctly
-* Verified default blocklists were loaded
-* Completed initial Pi-hole setup
-
-Progress
-Pi-hole deployed with Docker
-Container health verified
-Docker networking troubleshooting completed
-
-Lessons Learned
-Docker container deployment
-Port conflict troubleshooting
-Linux networking services
-Basic container management
-
+Finally, I performed basic SSH hardening and verified that the SSH service restarted successfully without any issues.
 
 ### Progress
 
-* Ubuntu Server installed
-* Wi-Fi configured
-* OpenSSH enabled
-* System updated
-* Docker installed and tested
-* Pi-hole image downloaded
-* Troubleshot Docker networking issues
-* Successfully deployed Pi-hole using Docker
-* Verified that the Pi-hole container is running
+- Ubuntu Server installed
+- Wi-Fi configured
+- OpenSSH enabled
+- System updated
+- Docker installed
+- Docker tested using hello-world
+- Pi-hole image downloaded
+- Docker networking issues resolved
+- Pi-hole deployed using Docker
+- Pi-hole dashboard accessed successfully
+- DNS resolution verified through Pi-hole
+- UFW Firewall configured
+- SSH hardening completed
+- All services verified and operational
 
 ### Lessons Learned
 
-* How to create a bootable USB using Rufus
-* Basic Ubuntu Server installation and configuration
-* Using SSH for remote management
-* Installing and testing Docker containers
-* Troubleshooting port conflicts in Linux
-* Deploying services using Docker
+- Creating bootable USB drives using Rufus
+- Ubuntu Server installation and configuration
+- Basic Linux system administration
+- Managing Linux services using systemctl
+- Docker installation and container deployment
+- Troubleshooting Docker networking issues
+- Resolving Linux port conflicts
+- DNS fundamentals and Pi-hole deployment
+- Firewall configuration using UFW
+- Basic SSH security hardening
+- Git and GitHub documentation practices
+
+### Current Environment
+
+- Ubuntu Server 26.04
+- OpenSSH
+- Docker
+- Pi-hole
+- UFW Firewall
 
 ### Next Steps
 
-* Access the Pi-hole web dashboard
-* Configure devices to use Pi-hole as their DNS server
-* Install and configure UFW Firewall
-* Set up Tailscale for remote access
-* Deploy additional Docker services
-* Begin security hardening of the server
+- Install Cockpit Server Management
+- Configure Tailscale for remote access
+- Deploy network monitoring tools
+- Install and configure Wazuh
+- Host a personal portfolio website
+- Continue security hardening of the homelab
+
+---
+
+## Project Status
+
+### Completed
+
+- Ubuntu Server
+- Docker
+- Pi-hole
+- UFW Firewall
+- SSH Hardening
+
+### In Progress
+
+- Cockpit
+- Tailscale
+- Network Monitoring
+- Wazuh
+
+### Planned
+
+- Portfolio Website
+- Additional Self-Hosted Services
+- Advanced Security Monitoring

@@ -21,12 +21,15 @@ The bootable USB was successfully created and verified. The next step is to boot
 
 ### Planned Next Steps
 
-1. Install Ubuntu Server 26.04
-2. Configure networking and SSH access
-3. Update the system packages
-4. Install Docker
-5. Deploy Pi-hole
-6. Configure firewall and security settings
+* Install Ubuntu Server 26.04
+* Configure networking and SSH access
+* Update the system packages
+* Install Docker
+* Deploy Pi-hole
+* Configure firewall and security settings
+
+---
+
 ## Day 2
 
 Successfully installed Ubuntu Server 26.04 on the Lenovo laptop.
@@ -35,13 +38,36 @@ Configured Wi-Fi networking, enabled OpenSSH for remote access, and updated the 
 
 Installed Docker and verified the installation using the hello-world container.
 
-Attempted a native Pi-hole installation, which became unresponsive during package installation. As a result, I decided to deploy Pi-hole using Docker containers instead.
+Attempted a native Pi-hole installation, which became unresponsive during package installation. As a result, I decided to deploy Pi-hole using Docker instead.
+
+During deployment, Docker reported that port 53 was already in use by Ubuntu's systemd-resolved service. After troubleshooting the issue and freeing the port, I successfully launched the Pi-hole container.
 
 ### Progress
 
-- Ubuntu Server installed
-- Wi-Fi configured
-- OpenSSH enabled
-- System updated
-- Docker installed and tested
-- Began Pi-hole deployment using Docker
+* Ubuntu Server installed
+* Wi-Fi configured
+* OpenSSH enabled
+* System updated
+* Docker installed and tested
+* Pi-hole image downloaded
+* Troubleshot Docker networking issues
+* Successfully deployed Pi-hole using Docker
+* Verified that the Pi-hole container is running
+
+### Lessons Learned
+
+* How to create a bootable USB using Rufus
+* Basic Ubuntu Server installation and configuration
+* Using SSH for remote management
+* Installing and testing Docker containers
+* Troubleshooting port conflicts in Linux
+* Deploying services using Docker
+
+### Next Steps
+
+* Access the Pi-hole web dashboard
+* Configure devices to use Pi-hole as their DNS server
+* Install and configure UFW Firewall
+* Set up Tailscale for remote access
+* Deploy additional Docker services
+* Begin security hardening of the server
